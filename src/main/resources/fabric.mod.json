@@ -1,0 +1,29 @@
+﻿{
+  "schemaVersion": 1,
+  "id": "somehurtcam",
+  "version": "${version}",
+  "name": "SomeHurtCam",
+  "description": "Disables screen shake/hurt cam effect. Toggle with F8.",
+  "authors": [
+    "SomeHurtCam Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/SomeHurtCam/SomeHurtCam"
+  },
+  "license": "MIT",
+  "icon": "assets/somehurtcam/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.somehurtcam.SomeHurtCamMod"
+    ]
+  },
+  "mixins": [
+    "somehurtcam.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_min_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=8"
+  }
+}

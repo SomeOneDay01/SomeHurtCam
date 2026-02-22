@@ -1,0 +1,6 @@
+﻿{
+  "category.somehurtcam": "SomeHurtCam",
+  "key.somehurtcam.toggle": "Toggle Hurt Camera",
+  "message.somehurtcam.hurtcam_disabled": "[SomeHurtCam] Hurt camera disabled",
+  "message.somehurtcam.hurtcam_enabled": "[SomeHurtCam] Hurt camera enabled"
+}

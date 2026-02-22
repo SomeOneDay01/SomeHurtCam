@@ -1,0 +1,6 @@
+﻿{
+  "category.somehurtcam": "SomeHurtCam",
+  "key.somehurtcam.toggle": "Переключить тряску",
+  "message.somehurtcam.hurtcam_disabled": "[SomeHurtCam] Тряска отключена",
+  "message.somehurtcam.hurtcam_enabled": "[SomeHurtCam] Тряска включена"
+}
