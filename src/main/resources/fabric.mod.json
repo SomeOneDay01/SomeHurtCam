@@ -8,7 +8,7 @@
     "SomeOneDay"
   ],
   "contact": {
-    "homepage": "https://github.com/SomeOneDay/SomeHurtCam"
+    "homepage": "https://github.com/SomeOneDay01/SomeHurtCam"
   },
   "license": "MIT",
   "icon": "assets/somehurtcam/icon.png",
@@ -23,7 +23,7 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_min_version}",
-    "minecraft": ">=1.17 <1.18",
-    "java": ">=16"
+    "minecraft": ">=1.18 <1.19",
+    "java": ">=17"
   }
 }
