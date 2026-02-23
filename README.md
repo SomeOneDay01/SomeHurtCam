@@ -1,6 +1,6 @@
 # SomeHurtCam
 
-Client-side Fabric mod for Minecraft 1.20.x that disables hurt camera shake.
+Client-side Fabric mod for Minecraft 1.21.x that disables hurt camera shake.
 
 ## Features
 
@@ -11,13 +11,13 @@ Client-side Fabric mod for Minecraft 1.20.x that disables hurt camera shake.
 
 ## Requirements
 
-- Minecraft `1.20.x`
+- Minecraft `1.21.x`
 - Fabric Loader `0.17.3+`
-- Java `17+`
+- Java `21+`
 
 ## Installation
 
-1. Install Fabric Loader for Minecraft `1.20.x`.
+1. Install Fabric Loader for Minecraft `1.21.x`.
 2. Put `SomeHurtCam-1.0.1.jar` into your `.minecraft/mods` folder.
 3. Start the game with the Fabric profile.
 
