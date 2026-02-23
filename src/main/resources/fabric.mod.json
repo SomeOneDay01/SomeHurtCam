@@ -5,10 +5,10 @@
   "name": "SomeHurtCam",
   "description": "Disables screen shake/hurt cam effect. Toggle with F8.",
   "authors": [
-    "SomeHurtCam Team"
+    "SomeOneDay"
   ],
   "contact": {
-    "homepage": "https://github.com/SomeHurtCam/SomeHurtCam"
+    "homepage": "https://github.com/SomeOneDay01/SomeHurtCam"
   },
   "license": "MIT",
   "icon": "assets/somehurtcam/icon.png",
