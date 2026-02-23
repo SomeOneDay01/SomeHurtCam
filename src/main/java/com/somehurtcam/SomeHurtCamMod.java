@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
+import net.minecraft.text.Text;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.glfw.GLFW;
@@ -39,7 +40,7 @@ public class SomeHurtCamMod implements ClientModInitializer {
                 ? "message.somehurtcam.hurtcam_disabled"
                 : "message.somehurtcam.hurtcam_enabled";
             if (client.player != null) {
-                client.player.sendMessage(new net.minecraft.text.TranslatableText(status), true);
+                client.player.sendMessage(Text.translatable(status), true);
             }
             LOGGER.info("HurtCam disabled: {}", hurtCamDisabled);
         }
