@@ -6,6 +6,7 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.glfw.GLFW;
@@ -15,12 +16,13 @@ public class SomeHurtCamMod implements ClientModInitializer {
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
     public static boolean hurtCamDisabled = true;
+    private static final KeyBinding.Category KEY_CATEGORY = KeyBinding.Category.create(Identifier.of(MOD_ID, "category"));
 
     private static final KeyBinding TOGGLE_KEY = new KeyBinding(
         "key.somehurtcam.toggle",
         InputUtil.Type.KEYSYM,
         GLFW.GLFW_KEY_F8,
-        "category.somehurtcam"
+            KEY_CATEGORY
     );
 
     @Override
